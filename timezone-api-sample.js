@@ -24,7 +24,8 @@ function setClickEvent()
             'json' +
             '?location=' + event.latLng.lat() + ',' + event.latLng.lng() +
             '&timestamp=' + getTimeStamp(new Date().getTime()) +
-            '&sensor=' + 'false';
+            '&sensor=' + 'false' +
+            '&language=' + 'ja';
 
         //request timezone
         $.ajax({
